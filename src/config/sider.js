@@ -1,0 +1,53 @@
+export default [
+    {
+        'name':'Option 1',
+        'icon':'pie-chart',
+        'link':'/test1',
+        'subMenu':[]
+    },
+    {
+        'name':'Option 2',
+        'icon':'desktop',
+        'subMenu':[
+            {
+                name:'Tom',
+                'link':'/test2',
+                'subMenu':[
+                    
+                ]
+            },
+            {
+                name:'Bill',
+                'link':'/login',
+                'subMenu':[]
+            },
+            {
+                name:'Alex',
+                'link':'#',
+                'subMenu':[]
+            }
+        ]
+    },
+    {
+        'name':'Team',
+        'icon':'desktop',
+        'subMenu':[
+            {
+                name:'Team1',
+                'link':'#',
+                'subMenu':[]
+            },
+            {
+                name:'Team2',
+                'link':'#',
+                'subMenu':[]
+            }
+        ]
+    },
+    {
+        'name':'File',
+        'icon':'file',
+        'link':'#',
+        'subMenu':[]
+    }
+];
